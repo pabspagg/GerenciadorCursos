@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GerenciadorCursos</name>
+    </assembly>
+    <members>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.GetAsync">
+            <summary>
+            Retorna todas as cursos.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.GetByIdAsync(System.Int32)">
+            <summary>
+            Retorna curso por id.
+            </summary>
+            <response code="200">Retorna curso cadastrado pelo id.</response>
+            <response code="404">Curso não encontrado.</response>
+            <response code="500">Erro interno no servidor.</response>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.GetByStatus(GerenciadorCursos.DomainCore.Models.Status)">
+            <summary>
+            Pesquisa curso por status.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.PostAsync(GerenciadorCursos.DomainCore.Models.CursoModelAddDto)">
+            <summary>
+            Adiciona um único curso.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.PutAsync(GerenciadorCursos.DomainCore.Models.CursoModelUpdateDto,System.Int32)">
+            <summary>
+            Atualiza curso.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.CursosController.DeleteAsync(System.Int32)">
+            <summary>
+            Deleta curso por id.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.LoginController.Authenticate(GerenciadorCursos.DomainCore.Models.UserModelLoginDto)">
+            <summary>
+             Login do usuário.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.UserController.GetAll">
+            <summary>
+             Exibe todos usuários.
+             </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.UserController.PostAsync(GerenciadorCursos.DomainCore.Models.UserModelDto)">
+            <summary>
+             Cadastro usuário.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.UserController.GetByIdAsync(System.Int32)">
+            <summary>
+             Procura usuário pelo id.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.UserController.PutAsync(GerenciadorCursos.DomainCore.Models.UserModelDto,System.Int32)">
+            <summary>
+            Atualiza usuário.
+            </summary>
+        </member>
+        <member name="M:GerenciadorCursos.Controllers.UserController.DeleteAsync(System.Int32)">
+            <summary>
+            Deleta usuário por id.
+            </summary>
+        </member>
+    </members>
+</doc>
